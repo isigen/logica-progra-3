@@ -22,4 +22,6 @@ function factorialize(num) {
   }
 
   let resultado = factorialize(nume)
-  console.log("Aqui tienes tu numero factorizado: ", resultado)
+  console.log("Aquí tienes tu numero factorizado: ", resultado)
+
+  document.getElementById("resultadiv").textContent = "Aquí tienes tu número factorizado: " + resultado;
